@@ -1,9 +1,4 @@
 requests
 streamlit
-numpy
-Pillow
 streamlit-option-menu
-pathlib
-textwrap
 google-generativeai
-ipython
