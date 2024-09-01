@@ -1,22 +1,11 @@
 import requests
 from io import BytesIO
 import streamlit as st
-import numpy as np
 import base64
-
-from PIL import Image
 from streamlit_option_menu import option_menu
-
-from tensorflow.keras.models import load_model
-
-
-import pathlib
-import textwrap
 
 import google.generativeai as genai
 
-from IPython.display import display
-from IPython.display import Markdown
 
 
 st.set_page_config(
