@@ -20,7 +20,7 @@ from IPython.display import Markdown
 
 
 st.set_page_config(
-    page_icon="Logo3.png",
+    page_icon="Logo4.png",
     page_title="Medicine Recommendation System",
     layout="wide"
 )
