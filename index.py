@@ -8,6 +8,7 @@ import google.generativeai as genai
 
 
 
+
 st.set_page_config(
     page_icon="Logo4.png",
     page_title="Medicine Recommendation System",
@@ -33,24 +34,7 @@ genai.configure(api_key="AIzaSyBX9BFeAk8HcMmWSuhh0xR_4CnrtEGrHok")
 
 
 
-def to_markdown(text):
-  text = text.replace('•', '  *')
-  return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
-
-def to_markdown2(list1):
-  list2=list()
-  for i in list1:
-    if "*" in i:
-      newword=i.replace("*"," ")
-      list2.append(newword)
-    elif "-" in i:
-        newword=i.replace("-"," ")
-        list2.append(newword)
-
-
-
-  return list2
 
 
 model = genai.GenerativeModel('gemini-pro')
@@ -643,7 +627,7 @@ elif selections == "Cheack Up":
 
     # Submit button
     if submit:
-        st.write(user_input)
+        
         st.markdown(
         """
         <h1 style='text-align: center;'>Our AI System Recommendations</h1>
