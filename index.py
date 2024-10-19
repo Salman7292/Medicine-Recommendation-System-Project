@@ -30,7 +30,7 @@ Background_img = get_img_as_base64("1.jpg")  # Replace with your local image pat
 
 
 
-genai.configure(api_key="AIzaSyBX9BFeAk8HcMmWSuhh0xR_4CnrtEGrHok")
+genai.configure(api_key="AIzaSyAkgJ60JabYJzxHTDqA_VwD6M_ptR0s5XU")
 
 
 
